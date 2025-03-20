@@ -1,0 +1,8 @@
+PhotoLab:
+I just changed the DIPs to work with Image and with the new Image.c file.
+
+Image:
+I set the pointers in each of the functions for GetPixel and SetPixel.
+I then did a delete image to unassign the pointers for the image file.
+I then  made the create image which assigned pointers to each of the RGB values and the Width and Height
+All of the photos work and turn out the same as Assignment 6, even crop works, but I can't figure out how to fix the memory leaks or what the cause of it was.  Excluding the memory leaks, everything works fine.
